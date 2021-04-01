@@ -1,0 +1,7 @@
+<p>user works!</p>
+<button type="button" (click)="getUsers()">Get Users</button>
+<ul *ngFor="let user of userList">
+  <li>
+    Id: {{user.id}} Name: {{user.name}}, Age: {{user.age}}
+  </li>
+</ul>
